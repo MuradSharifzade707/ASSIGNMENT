@@ -1,3 +1,3 @@
 # ASSIGNMENT
-My first assignment is sadasdja
-my second assignment is sdkjhksdf
+This repository is designed to display weekly assignments in C language that are given by my instructor.
+
