@@ -1,7 +1,7 @@
 ## Recursion Assignment
-***This C code finds the path to `*` character, where only vertical and horizontal movements are allowed.  
+This C code finds the path to `*` character, by using vertical and horizontal movements.  
 
-The solution looks like this:***
+The solution looks like this:
 
 ```
 "..##############"
