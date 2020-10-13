@@ -33,12 +33,14 @@ void swapArrays(int a1[], int a2[], int len)
 
 void print2DArr(int *arr2D[], int rows, int columns){
 	
-	for (int i = 0; i < rows; i++){
-		for (int j = 0; j < columns; j++){
-			if(i == rows-1 && j == columns - 1)
-				printf("%d\n", *(*(arr2D + i) + j));
-			else
-				printf("%d", *(*(arr2D + i) + j));
+	for (int i = 0; i < rows; i++)
+	{
+			for (int j = 0; j < columns; j++)
+		{
+				if(i == rows-1 && j == columns - 1)
+					printf("%d\n", arr2D[i][j]);
+				else
+					printf("%d", arr2D[i][j]);
 		}
 
 	}
