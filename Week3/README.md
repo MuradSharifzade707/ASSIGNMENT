@@ -8,7 +8,7 @@ then changes the order of combined arrays and finally prints them.
 ## Assignment 2
  
 The C program in Assignment 2 is rather simple that it creates a function 
-called 'swapStrings', implements it over two strings and prints.
+called `swapStrings`, implements it over two strings and prints.
 
 
 
