@@ -10,10 +10,12 @@ int i = 0;
     if (source[i] >= 48 && source[i] <= 57)
         {
 		integers[a] = source[i];
-		a++;}
+		a++;
+		}
 	else{
 		nonIntegers[b] = source[i];
-		b++;}
+		b++;
+		}
 	}
 	integers[a]='\0';
     nonIntegers[b]='\0';
@@ -26,8 +28,9 @@ char integers[256];
 char nonIntegers[256];
 
 function(source, integers, nonIntegers);
-printf("%s\n", source);
-printf("%s\n", integers);
-printf("%s\n", nonIntegers);
+printf("source: %s\n", source);
+printf("integers: %s\n", integers);
+printf("nonIntegers: %s\n", nonIntegers);
 
-return 0;}
+return 0;
+}
